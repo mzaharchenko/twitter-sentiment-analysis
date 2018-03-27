@@ -10,5 +10,6 @@ resolvers ++= Seq(
 )
 libraryDependencies ++= Seq(
  "com.danielasfregola" %% "twitter4s" % "5.5",
-  "edu.stanford.nlp"%"stanford-corenlp"% "3.9.1"
+  "edu.stanford.nlp"%"stanford-corenlp"% "3.9.1",
+  "edu.stanford.nlp"%"stanford-corenlp"% "3.9.1" classifier "models"
 )
